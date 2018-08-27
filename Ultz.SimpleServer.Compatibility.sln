@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.SimpleServer.Compatibility.v0", "Ultz.SimpleServer.Compatibility.v0\Ultz.SimpleServer.Compatibility.v0.csproj", "{29EB8A52-65E8-4DE0-ADA0-CAC42C2BFB85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29EB8A52-65E8-4DE0-ADA0-CAC42C2BFB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29EB8A52-65E8-4DE0-ADA0-CAC42C2BFB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29EB8A52-65E8-4DE0-ADA0-CAC42C2BFB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29EB8A52-65E8-4DE0-ADA0-CAC42C2BFB85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
