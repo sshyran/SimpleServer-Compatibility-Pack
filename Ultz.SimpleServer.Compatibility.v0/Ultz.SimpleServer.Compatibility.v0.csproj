@@ -1,8 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>SimpleServer</RootNamespace>
+    <Version>1.0.0</Version>
+    <PackageIconUrl>https://static.ultz.co.uk/new/ss2.png</PackageIconUrl>
+    <PackageVersion>1.0.0-rc3</PackageVersion>
+    <PackageLicenseUrl>https://stash.onultz.com/projects/SS/repos/simpleserver/browse/LICENSE.MD</PackageLicenseUrl>
+    <RepositoryUrl>https://stash.onultz.com/projects/SS/repos/simpleserver/browse/</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <Description>SimpleServer offers an easy-to-use HTTP server library built with an extendable architecture. It is the first to include HTTP/1, HTTP/2, and HTTPS - built for the modern web.</Description>
+    <PackageReleaseNotes>This is Release Candidate 3. Not much has changed since Alpha, other than all members have XML documentation now. This version fixes bugs involving the MinimalServer, and introduces the SimpleServer Compatibility Pack.</PackageReleaseNotes>
+    <Authors>Ultz</Authors>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Ultz.SimpleServer" Version="1.0.0-alpha1" />
+    <ProjectReference Include="..\SimpleServer\Ultz.SimpleServer.Minimal\Ultz.SimpleServer.Minimal.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Providers\ErrorPages\ErrorPage.html" />
+    <EmbeddedResource Include="Providers\ErrorPages\ErrorPage.html" />
   </ItemGroup>
 </Project>

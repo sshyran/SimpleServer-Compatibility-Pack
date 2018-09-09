@@ -1,0 +1,3 @@
+[submodule "SimpleServer"]
+	path = SimpleServer
+	url = https://stash.onultz.com/scm/SS/SimpleServer.git
