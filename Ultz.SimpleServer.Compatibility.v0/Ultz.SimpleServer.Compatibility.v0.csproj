@@ -4,12 +4,12 @@
     <RootNamespace>SimpleServer</RootNamespace>
     <Version>1.0.0</Version>
     <PackageIconUrl>https://static.ultz.co.uk/new/ss2.png</PackageIconUrl>
-    <PackageVersion>1.0.0-rc4</PackageVersion>
+    <PackageVersion>1.0.0</PackageVersion>
     <PackageLicenseUrl>https://stash.onultz.com/projects/SS/repos/simpleserver/browse/LICENSE.MD</PackageLicenseUrl>
     <RepositoryUrl>https://stash.onultz.com/projects/SS/repos/simpleserver/browse/</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <Description>SimpleServer offers an easy-to-use HTTP server library built with an extendable architecture. It is the first to include HTTP/1, HTTP/2, and HTTPS - built for the modern web.</Description>
-    <PackageReleaseNotes>This is Release Candidate 4. Not much has changed since Alpha, other than all members have XML documentation now. This version fixes bugs involving the MinimalServer, and introduces the SimpleServer Compatibility Pack.</PackageReleaseNotes>
+    <PackageReleaseNotes>SimpleServer 1.0 is the biggest and best update to SimpleServer yet, introducing HTTP/2 and HTTPS support; as well as a complete rewrite of the APIs. Read the upgrade guide here: https://confluence.onultz.com/simpleserver/developer-documentation/simpleserver-0-1-upgrade-guide Full patch notes: https://confluence.onultz.com/simpleserver/patch-notes</PackageReleaseNotes>
     <Authors>Ultz</Authors>
   </PropertyGroup>
   <ItemGroup>
